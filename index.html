@@ -1180,6 +1180,168 @@ class: center, middle, inverse
 ---
 
 
+class: center, middle, inverse
+name:tema3.1
+
+# Tema 3.1: **Accesibilidad documentos digitales (PDF + EPUB)**
+
+---
+## PDF vs EPUB: aspectos en común
+
++ Documento largo y expresivo en un único fichero
++ Permite la gestión de derechos digitales
++ Estándar abierto
++ En sus versiones PDF/UA y en todas las de EPUB es un documento estructurado
+
+---
+## PDF vs EPUB: aspectos diferenciadores
+
+
+.column-left[
+### PDF
+
++ Formato binario
++ Especificación compleja
++ No sigue estándares abiertos
++ Audio solo con recursos sistema operativo
++ No muy flexible
++ Origen empresa Adobe
++ Adoptado servicios de impresión
+]
+
+.column-right[
+### EPUB
+
++ Formato textual
++ Especificación similar a HTML
++ Sigue estándares abiertos: MathML, SMIL, HTML5
++ Permite audio incorporado
++ Originado colaborativamente
++ Adoptado editoriales
+]
+
+---
+## PDF vs EPUB3: pros y cons
+
+
+.column-left[
+### PDF
+
+####Pros
++ Muy fiable en la presentación final
++ Muy adoptado (no la versión PDF/UA)
+
+####Cons
++ Dependencia de Adobe
++ Lectores no aprovechan características accesibles
+
+]
+
+.column-right[
+### EPUB
+
+####Pros
++ Crecientemente adoptado
++ Basado en DAISY y HTML5
++ Con herramientas de código libre para crear y usar
+
+####Cons
++ Poco fiable en la presentación final
++ Pocas herramientas de autor para la versión EPUB3
+]
+
+---
+## El formato PDF. Origen y evolución
+
+<p style="text-align:center"><img src="images/pdfEvolucion.png" width="70%"  alt="Las diferentes especificaciones PDF a lo largo de los años" /></p>
+
+
++ Julio 2008: PDF como norma ISO 32000-1:2008
++ Octubre 2012: PDF/UA aprobado como estándar internacional ISO
+---
+## Variantes del formato PDF
+
++ PDF/A – Archivo. Norma ISO (2005)
++ PDF/X – Impresión.
++ PDF/E – Ingeniería. Incluye dibujos 3D y CAD.
++ PDF/UA – Accesibilidad Universal
+
+---
+## Los 5 niveles de accesibilidad de los documentos PDF
+
++ PDF imagen – no accesible.
++ PDF texto.
++ PDF texto, con orden.
++ PDF etiquetado automáticamente.
++ PDF etiquetado manualmente – accesible.
+
+Fuente: adaptación a partir de Alaistair Campbell
+
+---
+## Chuleta: Cómo crear un PDF a partir de un documento MS Word
+
++ Instalar Adobe Acrobat
++ Crear el Word de la manera más accesible posible
+  + Usar comprobación accesibilidad
+  + Incrustar fuentes
++ Convertir Word en PDF desde el menú de Adobe 
++ Abrir el PDF en Adobe Acrobat
+  + Hacer comprobación completa de accesibilidad (herramientas Accesibilidad)
+  + En Archivo-Propiedades indicar que la vista inicial sea título del documento y si es necesario, cambiar el idioma
+  + En la vista de miniaturas de página, seleccionarlas todas y establecer el orden como “estructura de la página”
+  + Abrir las páginas con la herramienta “Orden de Lectura” y reordenar para que coincidan el orden semántico y el visual
+  + Si hay tablas, revisar encabezados
++ Se recomienda revisar primero todos los problemas, y antes de tocar el PDF volver a MS Word y arreglarlo desde allí.
+
+---
+## EPUB origen y evolución
+
++ Antecedentes: Mobipocket, Microsoft LIT, iBook
+Open eBook Publication Structure
++ DAISY (DTBook) 1986-2011
+  + Específico para visión
++ EPUB 2.0 Octubre 2007, por IDPF
+  + Internamente DTBook o XHTML
++ EPUB 3.0 October 2011, por ISO
+  + Internamente, variante de HTML5
+---
+## ¿Dónde encontrar EPUB3?
+
++ Plataformas de distribución: Amazon, Apple iTunes Store, Google, B&N,...
++ Bibliotecas Universitarias (CRAI)
++ Colecciones de libros electrónicos de distribución libre: Project Gutenberg, Free eBooks.net,... 
+
+---
+## Aplicaciones sencillas para crear y leer EPUB3
+
++ Aplicación para la conversión de documentos accesibles a EPUB3: [RoboBraille](http://robobraille.org/) 
+
++ Aplicación para la lectura de libros electrónicos en formato EPUB3: [Readium para Chrome](http://readium.org/) Mediante vuestra cuenta Google
+---
+## Pasos a seguir con RoboBraille
+
+Entrar en la versión inglesa “Convert a file” de RoboBraille.
+
+En “Source”, seleccionar “File”.
+
+1. “Step 1”: seleccionar el fichero a convertir y subidlo con el botón “Upload” (64 MB máximo).
+1. “Step 2” seleccionar “Target format” E-book.
+1. “Step 3” seleccionar la opción EPUB3 with media overlay. 
+1. “Step 4” introducir la dirección de correo electrónico donde queráis recibir el EPUB3 resultante; mejor la institucional. Submit.  
+
+En “Receipt”, comprobar los detalles de la conversión realizada.
+
+---
+## Lectura de EPUB con Readium en Chrome
+
++ Readium es una extensión gratuita del navegador Chrome para leer libros EPUB3.
++ Cubre la gran mayoría de características de EPUB3, incluidas las media overlays.
++ Facilita atajos de teclado
++ Funciona razonablemente bien con lectores de pantalla, incluido NVDA.
++ En inglés.
+
+---
+
 <center><img src="images/allfolks.gif" width="100%" alt="That's all folks"></center>
 
 
